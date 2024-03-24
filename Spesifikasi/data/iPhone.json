@@ -1,0 +1,59 @@
+{
+  "search": [
+    {
+      "nama": "iPhone X",
+      "img": "assets/iPhoneX.jpg",
+      "warna": "Abu-abu, Perak",
+      "kapasitas": "64GB, 256GB",
+      "tinggi": "5,65 inci (143,6 mm)",
+      "lebar": "2,79 inci (70,9 mm)",
+      "berat": "6,14 ons (174 gram)",
+      "layar": "OlD Multi-Touch seluruh layar 5,8 inci (diagonal)",
+      "kamera": "Sudut lebar dan telefoto 12MP"
+    },
+    {
+      "nama": "iPhone XS",
+      "img": "assets/iPhoneXS.jpeg",
+      "warna": "Emas, Abu-abu, Perak",
+      "kapasitas": "64GB, 256GB, 512GB",
+      "tinggi": "143,6 mm (5,65 inci)",
+      "lebar": "70,9 mm (2,79 inci)",
+      "berat": "177 gram (6,24 ounce)",
+      "layar": "OLED Multi-Touch sepenuhnya 5,8 inci (diagonal)",
+      "kamera": "Kamera ganda telefoto dan wide‑angle 12 MP"
+    },
+    {
+      "nama": "iPhone XS Max",
+      "img": "assets/iPhoneXSMax.jpg",
+      "warna": "Emas, Abu-abu, Perak",
+      "kapasitas": "64GB, 256GB, 512GB",
+      "tinggi": "157,5 mm (6,20 inci)",
+      "lebar": "77,4 mm (3,05 inci)",
+      "berat": "208 gram (7,34 ounce)",
+      "layar": "Layar OLED Multi-Touch sepenuhnya 6,5 inci (diagonal)",
+      "kamera": "Kamera ganda telefoto dan wide‑angle 12 MP"
+    },
+    {
+      "nama": "iPhone XR",
+      "img": "assets/iPhoneXR.webp",
+      "warna": "Kuning, Putih, Koral, Hitam, Biru",
+      "kapasitas": "64GB, 128GB",
+      "tinggi": "150,9 mm",
+      "lebar": "75,7 mm",
+      "berat": "194 gram",
+      "layar": "Layar LCD Multi-Touch sepenuhnya 6,1 inci (diagonal) dengan teknologi IPS",
+      "kamera": "Kamera 12 MP Wide"
+    },
+    {
+      "nama": "iPhone 11",
+      "img": "assets/iPhone11.jpg",
+      "warna": "Kuning, Putih, Hijau, Hitam, Ungu",
+      "kapasitas": "64GB, 128GB, 256GB",
+      "tinggi": "150,9 mm",
+      "lebar": "75,7 mm",
+      "berat": "194 gram",
+      "layar": "Layar LCD Multi-Touch sepenuhnya 6,1 inci (diagonal) dengan teknologi IPS",
+      "kamera": "Sistem kamera ganda 12 MP: Kamera Wide dan Ultra Wide"
+    }
+  ]
+}
