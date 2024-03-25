@@ -153,6 +153,50 @@
       "berat": "238 g",
       "layar": "OLED menyeluruh 6,7 inci (diagonal)",
       "kamera": "Sistem kamera Pro 12 MP: kamera Telefoto, Wide, dan Ultra Wide"
+    },
+    {
+      "nama": "iPhone 14",
+      "img": "assets/iPhone14.jpg",
+      "warna": "Midnight, Starlight, Biru, Ungu, Kuning",
+      "kapasitas": "128GB, 256GB, 512GB",
+      "tinggi": "146,7 mm",
+      "lebar": "71,5 mm",
+      "berat": "172 g",
+      "layar": "OLED menyeluruh 6,1 inci (diagonal)",
+      "kamera": "Sistem kamera ganda 12 MP: Kamera Utama dan Ultra Wide"
+    },
+    {
+      "nama": "iPhone 14 Pro",
+      "img": "assets/iPhone14Pro.jpg",
+      "warna": "Hitam Kosmik, Perak, Emas, Ungu Tua",
+      "kapasitas": "128GB, 256GB, 512GB, 1TB",
+      "tinggi": "147,5 mm",
+      "lebar": "71,5 mm",
+      "berat": "206 gram",
+      "layar": "OLED menyeluruh 6,1 inci (diagonal)",
+      "kamera": "Utama 48 MP: 24 mm, Ultra Wide 12 MP: 13 mm"
+    },
+    {
+      "nama": "iPhone 14 Pro Max",
+      "img": "assets/iPhone14ProMax.png",
+      "warna": "Hitam Kosmik, Perak, Emas, Ungu Tua",
+      "kapasitas": "128GB, 256GB, 512GB, 1TB",
+      "tinggi": "160,7 mm",
+      "lebar": "77,6 mm",
+      "berat": "240 gram",
+      "layar": "OLED menyeluruh 6,7 inci (diagonal)",
+      "kamera": "Utama 48 MP: 24 mm, Ultra Wide 12 MP: 13 mm"
+    },
+    {
+      "nama": "iPhone 15",
+      "img": "assets/iPhone15.jpg",
+      "warna": "Hitam, Biru, Hijau, Kuning, Pink",
+      "kapasitas": "128GB, 256GB, 512GB",
+      "tinggi": "147,6 mm",
+      "lebar": "71,6 mm",
+      "berat": "171 gram",
+      "layar": "OLED menyeluruh 6,1 inci (diagonal)",
+      "kamera": "Utama 48 MP: 26 mm, Ultra Wide 12 MP: 13 mm"
     }
   ]
 }

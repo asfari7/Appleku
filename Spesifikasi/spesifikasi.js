@@ -249,6 +249,74 @@ $(document).ready(function () {
                                   </ul>
                                 </div>`;
           $('.spesifikasi').html(spesifikasi);
+        } else if (cari == 'iPhone 14') {
+          const spesifikasi = `<div class="card" style="width: 30rem">
+                                  <img src="${iPhone.search[14].img}" class="card-img-top" />
+                                  <div class="card-body">
+                                    <h3 class="card-title">${iPhone.search[14].nama}</h3>
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Warna : </strong>${iPhone.search[14].warna}</li>
+                                    <li class="list-group-item"><strong>Kapasitas : </strong>${iPhone.search[14].kapasitas}</li>
+                                    <li class="list-group-item"><strong>Tinggi : </strong>${iPhone.search[14].tinggi}</li>
+                                    <li class="list-group-item"><strong>Lebar : </strong>${iPhone.search[14].lebar}</li>
+                                    <li class="list-group-item"><strong>Berat : </strong>${iPhone.search[14].berat}</li>
+                                    <li class="list-group-item"><strong>Layar : </strong>${iPhone.search[14].layar}</li>
+                                    <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[14].kamera}</li>
+                                  </ul>
+                                </div>`;
+          $('.spesifikasi').html(spesifikasi);
+        } else if (cari == 'iPhone 14 Pro') {
+          const spesifikasi = `<div class="card" style="width: 30rem">
+                                  <img src="${iPhone.search[15].img}" class="card-img-top" />
+                                  <div class="card-body">
+                                    <h3 class="card-title">${iPhone.search[15].nama}</h3>
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Warna : </strong>${iPhone.search[15].warna}</li>
+                                    <li class="list-group-item"><strong>Kapasitas : </strong>${iPhone.search[15].kapasitas}</li>
+                                    <li class="list-group-item"><strong>Tinggi : </strong>${iPhone.search[15].tinggi}</li>
+                                    <li class="list-group-item"><strong>Lebar : </strong>${iPhone.search[15].lebar}</li>
+                                    <li class="list-group-item"><strong>Berat : </strong>${iPhone.search[15].berat}</li>
+                                    <li class="list-group-item"><strong>Layar : </strong>${iPhone.search[15].layar}</li>
+                                    <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[15].kamera}</li>
+                                  </ul>
+                                </div>`;
+          $('.spesifikasi').html(spesifikasi);
+        } else if (cari == 'iPhone 14 Pro Max') {
+          const spesifikasi = `<div class="card" style="width: 30rem">
+                                  <img src="${iPhone.search[16].img}" class="card-img-top" />
+                                  <div class="card-body">
+                                    <h3 class="card-title">${iPhone.search[16].nama}</h3>
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Warna : </strong>${iPhone.search[16].warna}</li>
+                                    <li class="list-group-item"><strong>Kapasitas : </strong>${iPhone.search[16].kapasitas}</li>
+                                    <li class="list-group-item"><strong>Tinggi : </strong>${iPhone.search[16].tinggi}</li>
+                                    <li class="list-group-item"><strong>Lebar : </strong>${iPhone.search[16].lebar}</li>
+                                    <li class="list-group-item"><strong>Berat : </strong>${iPhone.search[16].berat}</li>
+                                    <li class="list-group-item"><strong>Layar : </strong>${iPhone.search[16].layar}</li>
+                                    <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[16].kamera}</li>
+                                  </ul>
+                                </div>`;
+          $('.spesifikasi').html(spesifikasi);
+        } else if (cari == 'iPhone 15') {
+          const spesifikasi = `<div class="card" style="width: 30rem">
+                                  <img src="${iPhone.search[17].img}" class="card-img-top" />
+                                  <div class="card-body">
+                                    <h3 class="card-title">${iPhone.search[17].nama}</h3>
+                                  </div>
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Warna : </strong>${iPhone.search[17].warna}</li>
+                                    <li class="list-group-item"><strong>Kapasitas : </strong>${iPhone.search[17].kapasitas}</li>
+                                    <li class="list-group-item"><strong>Tinggi : </strong>${iPhone.search[17].tinggi}</li>
+                                    <li class="list-group-item"><strong>Lebar : </strong>${iPhone.search[17].lebar}</li>
+                                    <li class="list-group-item"><strong>Berat : </strong>${iPhone.search[17].berat}</li>
+                                    <li class="list-group-item"><strong>Layar : </strong>${iPhone.search[17].layar}</li>
+                                    <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[17].kamera}</li>
+                                  </ul>
+                                </div>`;
+          $('.spesifikasi').html(spesifikasi);
         } else if (cari == '') {
           return swal('', 'Mohon isi tipe iPhone terlebih dahulu', 'warning');
         }
