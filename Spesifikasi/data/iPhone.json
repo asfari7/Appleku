@@ -30,7 +30,7 @@
       "tinggi": "157,5 mm (6,20 inci)",
       "lebar": "77,4 mm (3,05 inci)",
       "berat": "208 gram (7,34 ounce)",
-      "layar": "Layar OLED Multi-Touch sepenuhnya 6,5 inci (diagonal)",
+      "layar": "OLED Multi-Touch sepenuhnya 6,5 inci (diagonal)",
       "kamera": "Kamera ganda telefoto dan wide‑angle 12 MP"
     },
     {
@@ -41,7 +41,7 @@
       "tinggi": "150,9 mm",
       "lebar": "75,7 mm",
       "berat": "194 gram",
-      "layar": "Layar LCD Multi-Touch sepenuhnya 6,1 inci (diagonal) dengan teknologi IPS",
+      "layar": "LCD Multi-Touch sepenuhnya 6,1 inci (diagonal) dengan teknologi IPS",
       "kamera": "Kamera 12 MP Wide"
     },
     {
@@ -52,8 +52,107 @@
       "tinggi": "150,9 mm",
       "lebar": "75,7 mm",
       "berat": "194 gram",
-      "layar": "Layar LCD Multi-Touch sepenuhnya 6,1 inci (diagonal) dengan teknologi IPS",
+      "layar": "LCD Multi-Touch sepenuhnya 6,1 inci (diagonal) dengan teknologi IPS",
       "kamera": "Sistem kamera ganda 12 MP: Kamera Wide dan Ultra Wide"
+    },
+    {
+      "nama": "iPhone 11 Pro",
+      "img": "assets/iPhone11Pro.jpg",
+      "warna": "Emas, Abu-abu, Perak, Hijau Temaram",
+      "kapasitas": "64GB, 256GB, 512GB",
+      "tinggi": "144,0 mm",
+      "lebar": "71,4 mm",
+      "berat": "188 gram",
+      "layar": "OLED Multi-Touch sepenuhnya 5,8 inci (diagonal)",
+      "kamera": "Tiga kamera 12 MP Ultra Wide, Wide, dan Telefoto"
+    },
+    {
+      "nama": "iPhone 11 Pro Max",
+      "img": "assets/iPhone11ProMax.jpg",
+      "warna": "Emas, Abu-abu, Perak, Hijau Temaram",
+      "kapasitas": "64GB, 256GB, 512GB",
+      "tinggi": "158,0 mm",
+      "lebar": "77,8 mm",
+      "berat": "226 gram",
+      "layar": "OLED Multi-Touch sepenuhnya 6,5 inci (diagonal)",
+      "kamera": "Tiga kamera 12 MP Ultra Wide, Wide, dan Telefoto"
+    },
+    {
+      "nama": "iPhone 12",
+      "img": "assets/iPhone12.jpg",
+      "warna": "Hitam, Putih, Hijau, Biru, Ungu",
+      "kapasitas": "64GB, 128GB, 256GB",
+      "tinggi": "146,7 mm",
+      "lebar": "71,5 mm",
+      "berat": "162 g",
+      "layar": "OLED sepenuhnya 6,1 inci (diagonal)",
+      "kamera": "Sistem kamera ganda 12 MP: Kamera Utama dan Ultra Wide"
+    },
+    {
+      "nama": "iPhone 12 mini",
+      "img": "assets/iPhone12mini.jpg",
+      "warna": "Hitam, Putih, Hijau, Biru, Ungu",
+      "kapasitas": "64GB, 128GB, 256GB",
+      "tinggi": "131,5 mm",
+      "lebar": "64,2 mm",
+      "berat": "133 g",
+      "layar": "OLED sepenuhnya 5,4 inci (diagonal)",
+      "kamera": "Sistem kamera ganda 12 MP: Kamera Wide dan Ultra Wide"
+    },
+    {
+      "nama": "iPhone 12 Pro",
+      "img": "assets/iPhone12Pro.webp",
+      "warna": "Perak, Abu-abu Grafit, Emas, Biru Pasifik",
+      "kapasitas": "128GB, 256GB, 512GB",
+      "tinggi": "146,7 mm",
+      "lebar": "71,5 mm",
+      "berat": "187 g",
+      "layar": "OLED menyeluruh 6,1 inci (diagonal)",
+      "kamera": "Sistem kamera pro 12 MP: Ultra Wide, Wide, dan Telefoto"
+    },
+    {
+      "nama": "iPhone 12 Pro Max",
+      "img": "assets/iPhone12ProMax.webp",
+      "warna": "Perak, Abu-abu Grafit, Emas, Biru Pasifik",
+      "kapasitas": "128GB, 256GB, 512GB",
+      "tinggi": "160,8 mm",
+      "lebar": "78,1 mm",
+      "berat": "226 g",
+      "layar": "OLED menyeluruh 6,7 inci (diagonal)",
+      "kamera": "Sistem kamera pro 12 MP: Ultra Wide, Wide, dan Telefoto"
+    },
+    {
+      "nama": "iPhone 13",
+      "img": "assets/iPhone13.jpg",
+      "warna": "Starlight, Midnight, Biru, Pink, Hijau",
+      "kapasitas": "128GB, 256GB, 512GB",
+      "tinggi": "146,7 mm",
+      "lebar": "71,5 mm",
+      "berat": "173 g",
+      "layar": "OLED menyeluruh 6,1 inci (diagonal)",
+      "kamera": "Sistem kamera ganda 12 MP: Kamera Utama dan Ultra Wide"
+    },
+    {
+      "nama": "iPhone 13 Pro",
+      "img": "assets/iPhone13Pro.jpg",
+      "warna": "Abu-abu Grafit, Emas, Perak, Biru Sierra, Hijau Alpen",
+      "kapasitas": "128GB, 256GB, 512GB, 1TB",
+      "tinggi": "146,7 mm",
+      "lebar": "71,5 mm",
+      "berat": "203 g",
+      "layar": "OLED menyeluruh 6,1 inci (diagonal)",
+      "kamera": "Sistem kamera Pro 12 MP: kamera Telefoto, Wide, dan Ultra Wide"
+    },
+    {
+      "nama": "iPhone 13 Pro Max",
+      "img": "assets/iPhone13ProMax.jpg",
+      "warna": "Abu-abu, Emas, Perak, Biru Sierra, Hijau Alpen",
+      "kapasitas": "128GB, 256GB, 512GB, 1TB",
+      "tinggi": "160,8 mm",
+      "lebar": "78,1 mm",
+      "berat": "238 g",
+      "layar": "OLED menyeluruh 6,7 inci (diagonal)",
+      "kamera": "Sistem kamera Pro 12 MP: kamera Telefoto, Wide, dan Ultra Wide"
     }
   ]
 }
