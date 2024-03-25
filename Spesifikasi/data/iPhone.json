@@ -197,6 +197,28 @@
       "berat": "171 gram",
       "layar": "OLED menyeluruh 6,1 inci (diagonal)",
       "kamera": "Utama 48 MP: 26 mm, Ultra Wide 12 MP: 13 mm"
+    },
+    {
+      "nama": "iPhone 15 Pro",
+      "img": "assets/iPhone15Pro.jpg",
+      "warna": "Titanium Hitam, Titanium Putih, Titanium Biru, Titanium Alami",
+      "kapasitas": "128GB, 256GB, 512GB, 1TB",
+      "tinggi": "146,6 mm",
+      "lebar": "70,6 mm",
+      "berat": "187 gram",
+      "layar": "OLED menyeluruh 6,1 inci (diagonal)",
+      "kamera": "Utama 48 MP: 24 mm, Ultra Wide 12 MP: 13 mm"
+    },
+    {
+      "nama": "iPhone 15 Pro Max",
+      "img": "assets/iPhone15ProMax.jpg",
+      "warna": "Titanium Hitam, Titanium Putih, Titanium Biru, Titanium Alami",
+      "kapasitas": "128GB, 256GB, 512GB, 1TB",
+      "tinggi": "159,9 mm",
+      "lebar": "76,7 mm",
+      "berat": "221 gram",
+      "layar": "OLED menyeluruh 6,7 inci (diagonal)",
+      "kamera": "Utama 48 MP: 24 mm, Ultra Wide 12 MP: 13 mm"
     }
   ]
 }
