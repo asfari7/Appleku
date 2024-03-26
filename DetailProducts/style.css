@@ -126,5 +126,179 @@ form {
 .btn1 i {
   padding-right: 8px;
 }
-
 /* NAVBAR */
+
+section {
+  height: 100vh;
+}
+
+.detail-product {
+  margin-top: 59px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 10px;
+}
+
+.detail-product .image-iPhone {
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-left: 105px;
+}
+
+.detail-product .image-iPhone .tipe {
+  margin-left: 105px;
+}
+
+.detail-product .detail-iPhone .title {
+  font-weight: bold;
+  padding-top: 13px;
+  margin-top: 10px;
+}
+
+.detail-product .detail-iPhone p {
+  margin-bottom: 0px;
+}
+
+.detail-product .detail-iPhone hr {
+  margin-top: 0px;
+  margin-bottom: 29px;
+}
+
+.detail-iPhone .harga {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-iPhone .harga p {
+  margin-right: 8.25px;
+}
+
+.detail-iPhone .harga .harga-normal {
+  text-decoration: line-through;
+  color: rgb(198, 197, 197);
+}
+
+.detail-iPhone .harga .hemat {
+  font-size: 12px;
+  color: white;
+  border: 2px solid #438dbb;
+  border-radius: 2.75px;
+  background-color: #438dbb;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 2.75px;
+  padding-bottom: 2.75px;
+}
+
+.detail-product .detail-iPhone .detail-harga {
+  color: #438dbb;
+  font-weight: bold;
+  padding-top: 13px;
+}
+
+.row .spesifikasi {
+  margin-top: 20px;
+}
+
+.row .spesifikasi .text {
+  color: rgb(198, 197, 197);
+}
+
+.row .spesifikasi .merk {
+  font-weight: bold;
+}
+
+.row .spesifikasi .text2 {
+  color: #0094ff;
+  padding-top: 5px;
+}
+
+.row .shopee-card {
+  margin-top: 20px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 10px;
+}
+
+.row .shopee-card h5 {
+  margin-top: 21px;
+  text-align: center;
+}
+
+.row .shopee-card a {
+  text-decoration: none;
+}
+
+.row .shopee-card .beli {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #438dbb;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.row .shopee-card .beli:hover {
+  background-color: #356f93;
+}
+
+.row .shopee-card .tambah-keranjang {
+  margin-top: 5px;
+  color: #438dbb;
+  text-align: center;
+  border: 2px solid #438dbb;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row .shopee-card p {
+  color: rgb(198, 197, 197);
+  margin-top: 10px;
+  margin-bottom: 11px;
+}
+
+.row .shopee-card .online-shop {
+  margin-bottom: 21px;
+}
+
+.pengiriman p {
+  color: rgb(172, 172, 172);
+  margin-left: 32px;
+  margin-bottom: 11px;
+}
+
+.pengiriman hr {
+  margin-top: 0px;
+}
+
+.lokasi {
+  color: rgb(172, 172, 172);
+  margin-left: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lokasi i {
+  margin-right: 3px;
+}
+
+.sosial-media {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.sosial-media p {
+  margin-right: 6px;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
