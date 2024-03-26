@@ -131,6 +131,7 @@ form {
 
 .carousel-inner img {
   max-height: 596px;
+  border-radius: 10px;
 }
 
 .carousel-inner h1 {
@@ -140,7 +141,6 @@ form {
 /* RESPONSIVE */
 /* HEADER */
 @media screen and (max-width: 1300px) {
-
   header {
     text-align: center;
   }
@@ -155,5 +155,4 @@ form {
     font-size: 15px;
     font-weight: 700;
   }
-
 }
