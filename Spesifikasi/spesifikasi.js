@@ -1,17 +1,17 @@
 $(document).ready(function () {
-  $('.search-button').on('click', function () {
+  $(".search-button").on("click", function () {
     swal({
-      title: '',
-      text: 'Mencari Data...',
-      icon: 'https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif',
+      title: "",
+      text: "Mencari Data...",
+      icon: "https://c.tenor.com/I6kN-6X7nhAAAAAj/loading-buffering.gif",
       button: false,
       timer: 1000,
     });
     $.ajax({
-      url: 'data/iPhone.json',
+      url: "data/iPhone.json",
       success: (iPhone) => {
-        const cari = $('.input-keyword').val();
-        if (cari == 'iPhone X') {
+        const cari = $(".input-keyword").val();
+        if (cari == "iPhone X") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[0].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -27,8 +27,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[0].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone XS') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone XS") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[1].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -44,8 +44,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[1].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone XS Max') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone XS Max") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[2].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -61,8 +61,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[2].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone XR') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone XR") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[3].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -78,8 +78,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[3].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 11') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 11") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[4].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -95,8 +95,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[4].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 11 Pro') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 11 Pro") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[5].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -112,8 +112,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[5].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 11 Pro Max') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 11 Pro Max") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[6].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -129,8 +129,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[6].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 12') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 12") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[7].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -146,8 +146,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[7].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 12 mini') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 12 mini") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[8].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -163,8 +163,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[8].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 12 Pro') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 12 Pro") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[9].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -180,8 +180,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[9].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 12 Pro Max') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 12 Pro Max") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[10].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -197,8 +197,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[10].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 13') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 13") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[11].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -214,8 +214,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[11].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 13 Pro') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 13 Pro") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[12].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -231,8 +231,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[12].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 13 Pro Max') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 13 Pro Max") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[13].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -248,8 +248,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[13].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 14') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 14") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[14].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -265,8 +265,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[14].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 14 Pro') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 14 Pro") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[15].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -282,8 +282,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[15].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 14 Pro Max') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 14 Pro Max") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[16].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -299,8 +299,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[16].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 15') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 15") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[17].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -316,8 +316,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[17].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 15 Pro') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 15 Pro") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[18].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -333,8 +333,8 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[18].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == 'iPhone 15 Pro Max') {
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "iPhone 15 Pro Max") {
           const spesifikasi = `<div class="card" style="width: 30rem">
                                   <img src="${iPhone.search[19].img}" class="card-img-top" />
                                   <div class="card-body">
@@ -350,13 +350,13 @@ $(document).ready(function () {
                                     <li class="list-group-item"><strong>Kamera : </strong>${iPhone.search[19].kamera}</li>
                                   </ul>
                                 </div>`;
-          $('.spesifikasi').html(spesifikasi);
-        } else if (cari == '') {
-          return swal('', 'Mohon isi tipe iPhone terlebih dahulu', 'warning');
+          $(".spesifikasi").html(spesifikasi);
+        } else if (cari == "") {
+          return swal("", "Mohon isi tipe iPhone terlebih dahulu", "warning");
         }
       },
       error: (e) => {
-        return swal('', `${e.responseText}`, 'warning');
+        return swal("", `${e.responseText}`, "warning");
       },
     });
   });

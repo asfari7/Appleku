@@ -75,6 +75,7 @@ header .gmail i {
 header .gmail p {
   margin: 0px;
 }
+
 /* HEADER */
 
 /* NAVBAR */
@@ -101,7 +102,7 @@ form {
   margin-right: 95px;
 }
 
-form .btn1,
+.btn1,
 .btn2,
 .btn3 {
   height: 38px;
@@ -115,14 +116,14 @@ form .btn1,
   transition: 0.3s;
 }
 
-form .btn1:hover,
+.btn1:hover,
 .btn2:hover,
 .btn3:hover {
   background-color: #438dbb;
   color: white;
 }
 
-form .btn1 i {
+.btn1 i {
   padding-right: 8px;
 }
 
@@ -156,31 +157,6 @@ form .btn1 i {
   justify-content: center;
 }
 
-.tips {
-  margin-top: 86px;
-  display: flex;
-}
-
-.tips .text {
-  display: flex;
-  margin-right: 100px;
-}
-
-.tips .text i {
-  color: #438dbb;
-  font-size: 28px;
-  margin-right: 9px;
-}
-
-.tips .text p {
-  color: black;
-  width: 150px;
-}
-
-.container {
-  justify-content: center;
-  align-items: center;
-}
 
 .spesifikasi {
   margin-top: 40px;
@@ -225,6 +201,7 @@ form .btn1 i {
   header .text h5 {
     font-size: 18px;
   }
+
   /* HEADER */
 
   /* NAVBAR */
@@ -241,5 +218,6 @@ form .btn1 i {
   form {
     margin-right: 50px;
   }
+
   /* NAVBAR */
 }

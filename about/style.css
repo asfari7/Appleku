@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* HEADER */
@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   height: fit-content;
   text-align: center;
-  padding: 12px 0;
+  padding: 12px 0px;
   width: 100%;
   background-color: #438dbb;
 }
@@ -20,7 +20,7 @@ header .sosmed {
 }
 
 header .sosmed p {
-  margin: 0 12px 0 0;
+  margin: 0px 12px 0px 0px;
   color: white;
 }
 
@@ -46,23 +46,37 @@ header .text h5 {
   font-size: calc(12px + 0.5vw);
 }
 
-header .contact,
+header .contact {
+  display: flex;
+  color: white;
+}
+
+header .contact p {
+  margin: 0px;
+}
+
+header .contact i {
+  cursor: pointer;
+  padding-right: 8px;
+  padding-top: 6px;
+}
+
 header .gmail {
   display: flex;
   color: white;
 }
 
-header .contact p,
-header .gmail p {
-  margin: 0;
-}
-
-header .contact i,
 header .gmail i {
   cursor: pointer;
   padding-right: 8px;
   padding-top: 6px;
 }
+
+header .gmail p {
+  margin: 0px;
+}
+
+/* HEADER */
 
 /* NAVBAR */
 nav h1 {
@@ -88,7 +102,7 @@ form {
   margin-right: 95px;
 }
 
-form .btn1,
+.btn1,
 .btn2,
 .btn3 {
   height: 38px;
@@ -102,41 +116,19 @@ form .btn1,
   transition: 0.3s;
 }
 
-form .btn1 i {
-  padding-right: 8px;
-}
-
-form .btn1:hover,
+.btn1:hover,
 .btn2:hover,
 .btn3:hover {
   background-color: #438dbb;
   color: white;
 }
 
-/* RESPONSIVE */
-@media screen and (max-width: 1300px) {
-  header {
-      text-align: center;
-  }
-
-  /* NAVBAR */
-  nav h1 {
-      font-size: 25px;
-      margin-left: 50px;
-  }
-
-  nav ul li {
-      font-size: 15px;
-      font-weight: 700;
-  }
-
-  form {
-      margin-right: 50px;
-  }
-  /* NAVBAR */
+.btn1 i {
+  padding-right: 8px;
 }
 
-/* CAROUSEL */
+/* NAVBAR */
+
 .carousel-inner img {
   max-height: 596px;
 }
@@ -145,47 +137,23 @@ form .btn1:hover,
   margin-bottom: 420px;
 }
 
-.carousel-caption {
-  position: absolute;
-  top: 57%;
-  transform: translateY(-50%);
-  width: 70%;
-  text-align: center;
-}
+/* RESPONSIVE */
+/* HEADER */
+@media screen and (max-width: 1300px) {
 
+  header {
+    text-align: center;
+  }
 
-/* ABOUT SECTION */
-.about-section {
-  padding: 50px 0;
-  background-color: #f8f9fa;
-  text-align: center;
-}
+  /* NAVBAR */
+  nav h1 {
+    font-size: 25px;
+    margin-left: 50px;
+  }
 
-.about-section h2 {
-  color: #438dbb;
-}
+  nav ul li {
+    font-size: 15px;
+    font-weight: 700;
+  }
 
-.about-section p {
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: justify;
-}
-
-.about-section .container {
-  display: flex;
-  justify-content: center;
-}
-
-.about-section .row {
-  margin-top: 30px;
-}
-
-.about-section .col {
-  margin-bottom: 30px;
-  padding: 0 15px;
-}
-
-.about-article h2 {
-  text-align: center;
-  color: #438dbb;
 }

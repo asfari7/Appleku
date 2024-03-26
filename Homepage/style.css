@@ -102,7 +102,7 @@ form {
   margin-right: 95px;
 }
 
-form .btn1,
+.btn1,
 .btn2,
 .btn3 {
   height: 38px;
@@ -116,14 +116,14 @@ form .btn1,
   transition: 0.3s;
 }
 
-form .btn1:hover,
+.btn1:hover,
 .btn2:hover,
 .btn3:hover {
   background-color: #438dbb;
   color: white;
 }
 
-form .btn1 i {
+.btn1 i {
   padding-right: 8px;
 }
 
@@ -156,9 +156,4 @@ form .btn1 i {
     font-weight: 700;
   }
 
-  form {
-    margin-right: 50px;
-  }
-
-  /* NAVBAR */
 }
