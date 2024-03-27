@@ -126,6 +126,7 @@ form {
 .btn1 i {
   padding-right: 8px;
 }
+
 /* NAVBAR */
 
 section {
@@ -138,21 +139,21 @@ section {
   border-radius: 10px;
 }
 
-.detail-product .image-iPhone {
+/* .detail-product .image-iPhone {
   border-radius: 10px;
   padding-top: 50px;
   padding-left: 105px;
-}
+} */
 
-.detail-product .image-iPhone .tipe {
+/* .detail-product .image-iPhone .tipe {
   margin-left: 105px;
-}
+} */
 
-.detail-product .detail-iPhone .title {
+/* .detail-product .detail-iPhone .title {
   font-weight: bold;
   padding-top: 13px;
   margin-top: 10px;
-}
+} */
 
 .detail-product .detail-iPhone p {
   margin-bottom: 0px;
@@ -197,6 +198,7 @@ section {
 
 .row .spesifikasi {
   margin-top: 20px;
+  padding: 0;
 }
 
 .row .spesifikasi .text {
@@ -277,7 +279,6 @@ section {
 
 .lokasi {
   color: rgb(172, 172, 172);
-  margin-left: 32px;
   display: flex;
   flex-direction: row;
 }
@@ -299,6 +300,7 @@ section {
 .footer-card {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 11px;
 }
