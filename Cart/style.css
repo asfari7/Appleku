@@ -123,6 +123,11 @@ form {
   color: white;
 }
 
+.btn2 {
+  background-color: #438dbb;
+  color: white;
+}
+
 .btn1 i {
   padding-right: 8px;
 }

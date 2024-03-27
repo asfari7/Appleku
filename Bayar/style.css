@@ -88,7 +88,7 @@ form {
   margin-right: 95px;
 }
 
-form .btn1,
+.btn1,
 .btn2,
 .btn3 {
   height: 38px;
@@ -102,11 +102,11 @@ form .btn1,
   transition: 0.3s;
 }
 
-form .btn1 i {
+.btn1 i {
   padding-right: 8px;
 }
 
-form .btn1:hover,
+.btn1:hover,
 .btn2:hover,
 .btn3:hover {
   background-color: #438dbb;
@@ -116,22 +116,22 @@ form .btn1:hover,
 /* RESPONSIVE */
 @media screen and (max-width: 1300px) {
   header {
-      text-align: center;
+    text-align: center;
   }
 
   /* NAVBAR */
   nav h1 {
-      font-size: 25px;
-      margin-left: 50px;
+    font-size: 25px;
+    margin-left: 50px;
   }
 
   nav ul li {
-      font-size: 15px;
-      font-weight: 700;
+    font-size: 15px;
+    font-weight: 700;
   }
 
   form {
-      margin-right: 50px;
+    margin-right: 50px;
   }
 }
 
