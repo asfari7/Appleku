@@ -6,11 +6,13 @@ body {
 /* HEADER */
 header {
   display: flex;
-  height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  text-align: center;
+  padding: 12px 0px;
+  width: 100%;
   background-color: #438dbb;
-  padding-left: 98px;
-  padding-right: 98px;
-  padding-top: 17px;
 }
 
 header .sosmed {
@@ -18,8 +20,8 @@ header .sosmed {
 }
 
 header .sosmed p {
+  margin: 0px 12px 0px 0px;
   color: white;
-  margin-right: 9px;
 }
 
 header .sosmed i {
@@ -37,15 +39,20 @@ header .sosmed i {
 }
 
 header .text {
-  margin-left: 180px;
-  margin-right: 180px;
   color: white;
+}
+
+header .text h5 {
+  font-size: calc(12px + 0.5vw);
 }
 
 header .contact {
   display: flex;
   color: white;
-  margin-right: 26px;
+}
+
+header .contact p {
+  margin: 0px;
 }
 
 header .contact i {
@@ -66,7 +73,7 @@ header .gmail i {
 }
 
 header .gmail p {
-  text-align: right;
+  margin: 0px;
 }
 
 /* HEADER */
@@ -91,6 +98,9 @@ nav ul li {
   color: #438dbb !important;
 }
 
+form {
+  margin-right: 95px;
+}
 
 .btn1,
 .btn2,
@@ -121,6 +131,7 @@ nav ul li {
 
 .carousel-inner img {
   max-height: 596px;
+  border-radius: 10px;
 }
 
 .carousel-inner h1 {
@@ -227,11 +238,9 @@ h1 {
 .formContac {
   background-color: white;
   color: black;
-
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .formContac h1,
@@ -308,6 +317,6 @@ h1 {
   cursor: pointer;
 }
 
-button:hover {
+.additional-content button:hover {
   background-color: #0056b3;
 }
