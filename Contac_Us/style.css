@@ -86,10 +86,10 @@ nav ul li {
   color: rgb(94, 94, 94);
 }
 
-nav ul li a .active {
-  color: #438dbb;
+.nav-link:hover,
+.nav-link.active {
+  color: #438dbb !important;
 }
-
 
 
 .btn1,
