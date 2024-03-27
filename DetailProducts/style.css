@@ -302,3 +302,72 @@ section {
   justify-content: space-between;
   margin-bottom: 11px;
 }
+
+.ulasan {
+  margin-top: 21px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+.ulasan .judul {
+  display: flex;
+  flex-direction: row;
+}
+
+.ulasan .judul h5 {
+  font-weight: 400;
+  margin-left: 21px;
+  margin-top: 30px;
+  margin-right: 3px;
+  margin-bottom: 0px;
+}
+
+.ulasan .judul p {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.ulasan hr {
+  margin-top: 0px;
+}
+
+.ulasan-pembeli {
+  margin-top: 40px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 2.5px;
+  margin-left: 51px;
+  margin-right: 51px;
+  background-color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.profil {
+  text-align: center;
+  margin-top: 8.5px;
+}
+
+.profil img {
+  margin-top: 8.5px;
+}
+
+.profil .nama {
+  margin-bottom: 2px;
+}
+
+.profil .waktu {
+  color: rgb(175, 173, 173);
+}
+
+.komen p {
+  margin-top: 8.5px;
+}
+
+.produk {
+  margin-top: 177px;
+}
+
+.card-produk {
+  display: flex;
+  margin-top: 64px;
+}
