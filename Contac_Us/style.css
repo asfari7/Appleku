@@ -93,10 +93,6 @@ nav ul li {
   color: #438dbb !important;
 }
 
-form {
-  margin-right: 95px;
-}
-
 .btn1,
 .btn2,
 .btn3 {
@@ -145,10 +141,6 @@ form {
     width: 185px;
   }
 
-  header .text {
-    margin-left: 120px;
-    margin-right: 120px;
-  }
 
   header .text h5 {
     font-size: 18px;
@@ -167,9 +159,6 @@ form {
     font-weight: 700;
   }
 
-  form {
-    margin-right: 50px;
-  }
 
   /* NAVBAR */
 }
